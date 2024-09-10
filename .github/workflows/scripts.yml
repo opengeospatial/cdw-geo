@@ -7,6 +7,32 @@ on:
   pull_request:
 
 jobs:
+  validate-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install validator
+        run: |
+          cd validator/python
+          python -m pip install --no-binary geoparquet_validator .
+
+      - name: Run validator
+        run: |
+          for example in $(ls examples/*.parquet); do
+            echo $example;
+            geoparquet_validator $example || exit 1;
+          done
+          for example in $(ls test_data/*.parquet); do
+            echo $example;
+            geoparquet_validator $example || exit 1;
+          done
+
 
   test-json-metadata:
     runs-on: ubuntu-latest
