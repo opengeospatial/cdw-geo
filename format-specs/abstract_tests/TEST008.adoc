@@ -1,0 +1,14 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/bbox
+target:: /req/core/bbox
+test-purpose:: Validate that the bounding boxes are constructed correctly.
+test-method::
++
+--
+1. Verify that the bbox, if specified, is encoded with an array representing the range of values for each dimension in the geometry coordinates.
+
+--
+====

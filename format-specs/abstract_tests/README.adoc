@@ -1,0 +1,5 @@
+This folder contains the Abstract Test Suite.
+
+The test is expressed according to this pattern:
+
+NOTE: for each test, there should be a corresponding requirement in the "requirements" folder.

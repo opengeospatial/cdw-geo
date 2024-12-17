@@ -1,0 +1,7 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/geometry-columns
+part:: Geometry columns SHALL be stored using the BYTE_ARRAY parquet type.
+part:: Geometries SHALL be encoded as https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry#Well-known_binary[Well Known Binary (WKB)].
+====

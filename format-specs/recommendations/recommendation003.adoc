@@ -1,0 +1,6 @@
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/feature-identifiers
+part:: If you are using GeoParquet to serialize geospatial data with feature identifiers, you SHOULD create your own https://github.com/apache/parquet-format#metadata[file key/value metadata] to indicate the column that represents this identifier.
+====

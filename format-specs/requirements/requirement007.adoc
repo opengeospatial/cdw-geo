@@ -1,0 +1,7 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/orientation
+part:: All vertices of exterior polygon rings SHALL be ordered in the counterclockwise direction
+part:: All interior rings SHALL be ordered in the clockwise direction.
+====

@@ -1,0 +1,6 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/epoch
+part:: If the crs field defines a dynamic CRS, the coordinates SHALL always be qualified with the epoch at which they are valid.
+====

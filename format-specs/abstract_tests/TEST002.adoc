@@ -1,0 +1,16 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/nesting
+target:: /req/core/nesting
+test-purpose:: Validate that geometries are not contained in complex or nested types such as structs, lists, arrays, or map types.
+test-method::
++
+--
+1. Verify that geometry columns are at the root of the schema.
+
+2. Verify that no geometry is a group field or nested in a group.
+
+--
+====

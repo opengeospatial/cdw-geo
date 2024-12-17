@@ -1,0 +1,16 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/repetition
+target:: /req/core/repetition
+test-purpose:: Validate the cardinality of geometry columns.
+test-method::
++
+--
+1. Verify that the cardinality for all geometry columns is “required” (exactly one) or “optional” (zero or one).
+
+2. Verify that no geometry column is repeated.
+
+--
+====

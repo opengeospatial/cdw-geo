@@ -1,0 +1,48 @@
+[[ats_core]]
+[conformance_class]
+====
+[%metadata]
+identifier:: /conf/core
+target:: /req/core
+classification:: Target Type:Apache Parquet file
+conformance-test:: /conf/core/geometry-columns
+conformance-test:: /conf/core/nesting
+conformance-test:: /conf/core/repetition
+conformance-test:: /conf/core/metadata
+conformance-test:: /conf/core/crs
+conformance-test:: /conf/core/epoch
+conformance-test:: /conf/core/orientation
+conformance-test:: /conf/core/bbox
+====
+
+==== Geometry colums
+
+include::./TEST001.adoc[]
+
+==== Nesting
+
+include::./TEST002.adoc[]
+
+==== Repetition
+
+include::./TEST003.adoc[]
+
+==== Metadata
+
+include::./TEST004.adoc[]
+
+==== CRS
+
+include::./TEST005.adoc[]
+
+==== Epoch
+
+include::./TEST006.adoc[]
+
+==== Orientation
+
+include::./TEST007.adoc[]
+
+==== Bounding Box
+
+include::./TEST008.adoc[]

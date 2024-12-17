@@ -1,2 +1,8 @@
 /scripts/data/
 /scripts/__pycache__/
+/format-specs/relaton/
+/format-specs/iev/
+.DS_Store
+format-specs/document.err.html
+format-specs/document.presentation.xml
+format-specs/document.html

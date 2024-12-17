@@ -1,0 +1,6 @@
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/encoding
+part:: The geometry encoding SHOULD be the https://portal.ogc.org/files/?artifact_id=18241[OpenGIS® Implementation Specification for Geographic information — Simple feature access — Part 1: Common architecture] WKB representation (using codes for 3D geometry types in the [1001,1007] range).
+====

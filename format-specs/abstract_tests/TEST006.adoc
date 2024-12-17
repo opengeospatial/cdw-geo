@@ -1,0 +1,15 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/epoch
+target:: /req/core/epoch
+test-purpose:: If the crs field defines a dynamic CRS, validate that the coordinates are qualified with the epoch at which they are valid.
+test-method::
++
+--
+
+1. If the crs field defines a dynamic CRS, verify that the coordinates are qualified with the epoch at which they are valid.
+
+--
+====

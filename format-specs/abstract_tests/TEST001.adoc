@@ -1,0 +1,15 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/geometry-columns
+target:: /req/core/geometry-columns
+test-purpose:: Validate that geometry columns are stored using the BYTE_ARRAY parquet type.
+test-method::
++
+--
+1. Verify that geometry columns are stored using the BYTE_ARRAY parquet type.
+
+2. Verify that geometries are encoded as WKB.
+--
+====

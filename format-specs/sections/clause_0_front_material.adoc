@@ -1,0 +1,48 @@
+.Preface
+
+This is version 1.0.0 of the GeoParquet specification. See the https://geoparquet.org/releases/v1.0.0/schema.json[JSON Schema] to validate metadata for this version.
+
+////
+*OGC Declaration*
+////
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.
+
+Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
+
+
+
+[abstract]
+== Abstract
+
+The Apache Parquet provides a standardized open-source columnar storage format. The GeoParquet specification defines how geospatial data should be stored in parquet format, including the representation of geometries and the required additional metadata.
+
+
+// Security Considerations - Since this standard does not specify security considerations, metanorma will automatically include text stating that "No security considerations have been made for this Standard.".
+
+== Submitters
+
+All questions regarding this submission should be directed to the editor or the submitters:
+
+|===
+|*Name* |*Affiliation*
+| Chris Holmes| Planet
+| Tim Schaub| Planet
+| Javier de la Torre| CARTO
+| |
+| |
+|===
+
+== Contributors
+
+//This clause is optional.
+
+Additional contributors to this Standard include the following:
+
+|===
+|*Name* |*Affiliation* |*OGC Member*
+| |  | Yes/No
+| |  | Yes/No
+| |  | Yes/No
+| |  | Yes/No
+|===

@@ -1,0 +1,60 @@
+= GeoParquet Specification
+:doctype: standard
+:encoding: utf-8
+:lang: en
+:status: draft
+:committee: technical
+:draft: 3.0
+:external-id: http://www.opengis.net/doc/IS/geoparquet/1.0
+:docnumber: 24-013
+:received-date: 2029-03-30
+:issued-date: 2029-03-30
+:published-date: 2029-03-30
+:fullname: Chris Holmes
+:fullname_2: Tim Schaub
+:fullname_3: Joris Van den Bossche
+:fullname_4: Kyle Barron
+:fullname_5: Javier de la Torre
+:docsubtype: Interface
+:keywords: ogcdoc, OGC document, geoparquet, parquet, columnar, cloud
+:submitting-organizations: Planet; CARTO
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf
+:local-cache-only:
+:data-uri-image:
+:pdf-uri: ./document.pdf
+:xml-uri: ./document.xml
+:doc-uri: ./document.doc
+:edition: 1.0.0
+
+////
+Make sure to complete each included document
+////
+include::sections/clause_0_front_material.adoc[]
+
+include::sections/clause_1_scope.adoc[]
+
+include::sections/clause_2_conformance.adoc[]
+
+include::sections/clause_3_references.adoc[]
+
+include::sections/clause_4_terms_and_definitions.adoc[]
+
+include::sections/clause_5_conventions.adoc[]
+
+include::sections/clause_6_normative_text.adoc[]
+
+
+////
+add or remove annexes after "A" as necessary
+////
+
+include::sections/annex-a.adoc[]
+
+////
+Revision History should be the last annex before the Bibliography
+Bibliography should be the last annex
+////
+include::sections/annex-history.adoc[]
+
+include::sections/annex-bibliography.adoc[]

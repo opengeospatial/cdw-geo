@@ -1,0 +1,15 @@
+[[rc_table-core]]
+[requirements_class]
+.Requirements Class Core
+====
+[%metadata]
+identifier:: /req/core
+requirement:: /req/core/geometry-columns
+requirement:: /req/core/nesting
+requirement:: /req/core/repetition
+requirement:: /req/core/metadata
+requirement:: /req/core/crs
+requirement:: /req/core/epoch
+requirement:: /req/core/orientation
+requirement:: /req/core/bbox
+====

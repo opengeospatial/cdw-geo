@@ -1,0 +1,19 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/metadata
+target:: /req/core/metadata
+test-purpose:: Validate the metadata keys contained in the GeoParquet file.
+test-method::
++
+--
+
+1. Verify that the GeoParquet file includes a geo key in the Parquet metadata (see FileMetaData::key_value_metadata).
+
+2. Verify that the value of this key is a JSON-encoded UTF-8 string representing the file and column metadata that validates against the GeoParquet metadata schema.
+
+3. Verify that each geometry column in the dataset is included in the columns field (specified in <<tbl_file_and_column_metadata_fields>>) with the content specified in <<tbl_column_metadata>>, keyed by the column name
+
+--
+====

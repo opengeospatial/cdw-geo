@@ -1,0 +1,7 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/repetition
+part:: The repetition for all geometry columns SHALL be “required” (exactly one) or “optional” (zero or one).
+part:: A geometry column SHALL NOT be repeated.
+====

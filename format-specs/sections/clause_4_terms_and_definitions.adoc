@@ -1,0 +1,26 @@
+== Terms and definitions
+
+
+NOTE: The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
+
+=== epoch
+<geodesy> point in time
+
+Note 1 to entry: In this document an epoch is expressed in the Gregorian calendar as a decimal year.
+
+[.source]
+<<ISO19111_2019>>
+
+[example]
+2017-03-25 in the Gregorian calendar is epoch 2017,23.
+
+=== coordinate reference system
+
+coordinate system that is related to an object by a datum
+
+NOTE: Geodetic and vertical datums are referred to as reference frames.
+
+NOTE: For geodetic and vertical reference frames, the object will be the Earth. In planetary applications, geodetic and vertical reference frames may be applied to other celestial bodies.
+
+[.source]
+<<ISO19111_2019>>

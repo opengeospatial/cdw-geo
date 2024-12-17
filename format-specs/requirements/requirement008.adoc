@@ -1,0 +1,6 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/bbox
+part:: The bbox, if specified, SHALL be encoded with an array representing the range of values for each dimension in the geometry coordinates.
+====

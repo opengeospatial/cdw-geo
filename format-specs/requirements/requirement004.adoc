@@ -1,0 +1,8 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/metadata
+part:: A GeoParquet file SHALL include a geo key in the Parquet metadata (see FileMetaData::key_value_metadata).
+part:: The value of this key SHALL be a JSON-encoded UTF-8 string representing the file and column metadata that validates against the GeoParquet metadata schema.
+part:: Each geometry column in the dataset SHALL be included in the columns field (specified in <<tbl_file_and_column_metadata_fields>>) with the following content (specified in <<tbl_column_metadata>>), keyed by the column name
+====

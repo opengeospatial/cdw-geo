@@ -1,0 +1,7 @@
+[bibliography]
+== References
+
+* [[[apache_parquet,Apache Parquet]]], Apache Software Foundation: Apache Parquet, https://parquet.apache.org/, last accessed 2024/04/10.
+* [[[projjson,PROJJSON]]], PROJ contributors: PROJJSON Specification for PROJ 9.4, https://proj.org/specifications/projjson.html, last accessed 2024/04/10.
+* [[[OGC06-103r3,OGC 06-103r3]]],
+* [[[ISO19111_2019,ISO 19111:2019]]],

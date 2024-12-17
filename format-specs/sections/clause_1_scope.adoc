@@ -1,0 +1,3 @@
+== Scope
+
+The GeoParquet specification defines how geospatial data should be stored in parquet format, including the representation of geometries and the required additional metadata.

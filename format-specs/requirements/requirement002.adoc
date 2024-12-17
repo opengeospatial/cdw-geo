@@ -1,0 +1,7 @@
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/nesting
+part:: Geometry columns SHALL be at the root of the schema.
+part:: A geometry SHALL NOT be a group field or nested in a group.
+====

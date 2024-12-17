@@ -1,0 +1,17 @@
+
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/orientation
+target:: /req/core/orientation
+test-purpose:: Validate the winding order of polygons.
+test-method::
++
+--
+
+1. Verify that all vertices of exterior polygon rings are ordered in the counterclockwise direction
+
+2. Verify that all interior rings are ordered in the clockwise direction.
+
+--
+====
